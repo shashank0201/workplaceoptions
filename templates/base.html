@@ -1,0 +1,23 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Interview Task- Python Developer</title>
+   </head>
+   <body>
+      {% block content %}
+      {% endblock %}
+      {% block css %}
+      <!-- Core CSS - Include with every page -->
+      <link href="{% static 'css/bootstrap.min.css' %}" rel="stylesheet">
+      <link href="{% static 'css/dataTables.bootstrap.min.css' %}" rel="stylesheet">
+      <link href="{% static 'css/font-awesome.min.css' %}" rel="stylesheet">
+      {% endblock %}
+      {% block javascript %}
+      <!-- Core Scripts - Include with every page -->
+      <script src = "{% static 'js/bootstrap.min.js' %}"></script>
+      {% endblock %}
+   </body>
+</html>
