@@ -1,5 +1,5 @@
 # Workplace Options
-Python-Django based portal where an excel file contain Persons can be uploaded with four fileds. It enables to search a person all by its Email ID
+Python-Django based portal where an excel file contain Persons can be uploaded with four fileds. It enables to search a person all details by its Email ID
 
 ## Getting Started
 
